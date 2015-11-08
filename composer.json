@@ -1,0 +1,25 @@
+{
+	"name": "folkpro/yii2-many-has-many-behaviors",
+	"description": "Yii2 behavior",
+	"keywords": ["yii2", "behaviors"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/folkpro/yii2-many-has-many-behaviors",
+        "issues": "https://github.com/folkpro/yii2-many-has-many-behaviors/issues"
+	},
+	"authors": [
+        {
+            "name": "folkpro",
+            "homepage" : "https://github.com/folkpro"
+        }
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+            "folkpro\\manyhasmanybehaviors\\": ""
+        }
+	}
+}
