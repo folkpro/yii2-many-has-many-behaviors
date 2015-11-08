@@ -10,6 +10,7 @@ Either run
 ```
 composer require folkpro/yii2-many-has-many-behaviors
 ```
+
 or add
 
 ```json
@@ -22,6 +23,7 @@ Usage
 -----
 
 * In your model, add the behavior and configure it
+
 ```
 public function behaviors()
 {
@@ -37,6 +39,7 @@ public function behaviors()
 ```
 
 * In your model, add the relation, for example:
+
 ```
 public function getTags()
 {
@@ -46,6 +49,7 @@ public function getTags()
 ```
 
 * In your model, add validation rules for the attributes created by the behavior, for example:
+
 ```
 public function rules()
 {
