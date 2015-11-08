@@ -21,7 +21,7 @@ to the require section of your application's `composer.json` file.
 Usage
 -----
 
-1. In your model, add the behavior and configure it
+* In your model, add the behavior and configure it
 ```
 public function behaviors()
 {
@@ -36,15 +36,16 @@ public function behaviors()
 }
 ```
 
-2. In your model, add the relation, for example:
+* In your model, add the relation, for example:
 ```
 public function getTags()
 {
-    return $this->hasMany(Tag::className(), ['id' => 'tag_id'])->viaTable('post_has_tag', ['post_id' => 'id']);
+    return $this->hasMany(Tag::className(), ['id' => 'tag_id'])
+        ->viaTable('post_has_tag', ['post_id' => 'id']);
 }
 ```
 
-3. In your model, add validation rules for the attributes created by the behavior, for example:
+* In your model, add validation rules for the attributes created by the behavior, for example:
 ```
 public function rules()
 {
@@ -54,9 +55,12 @@ public function rules()
 }
 ```
 
-4. In your view, create form fields for the attributes
+* In your view, create form fields for the attributes
+
+<i>More information here:</i>  
+[ManyHasManyBehavior](http://fancode.ru/post/yii2-behaviors-many-to-many "Поведение Yii2 Behaviors для сохранения связанных данных «многие ко многим»")
 
 ***
 
 <i>Web development here:</i>  
-[ManyHasManyBehavior](http://fancode.ru/post/yii2-behaviors-many-to-many)
+[fancode.ru](http://fancode.ru)
