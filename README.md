@@ -61,10 +61,9 @@ public function rules()
 
 * In your view, create form fields for the attributes
 
+***
+
 <i>More information here:</i>  
 [ManyHasManyBehavior](http://fancode.ru/post/yii2-behaviors-many-to-many "Поведение Yii2 Behaviors для сохранения связанных данных «многие ко многим»")
 
 ***
-
-<i>Web development here:</i>  
-[fancode.ru](http://fancode.ru)
