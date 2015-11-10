@@ -1,6 +1,6 @@
 <?php
 
-namespace app\components\behaviors;
+namespace folkpro\manyhasmanybehaviors;
 
 use Yii;
 use yii\db\ActiveRecord;
@@ -8,7 +8,7 @@ use yii\base\ErrorException;
 
 /**
  * Class ManyHasManyBehavior
- * @package app\components\behaviors
+ * @package folkpro\manyhasmanybehaviors
  *
  * Usage:
  * 1. In your model, add the behavior and configure it:
@@ -16,7 +16,7 @@ use yii\base\ErrorException;
  * {
  *     return [
  *         [
- *             'class' => \app\components\behaviors\ManyHasManyBehavior::className(),
+ *             'class' => \folkpro\manyhasmanybehaviors\ManyHasManyBehavior::className(),
  *             'relations' => [
  *                  'tags' => 'tag_items',                  
  *              ],
