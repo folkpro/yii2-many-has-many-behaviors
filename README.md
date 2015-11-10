@@ -67,3 +67,4 @@ public function rules()
 [ManyHasManyBehavior](http://fancode.ru/post/yii2-behaviors-many-to-many "Поведение Yii2 Behaviors для сохранения связанных данных «многие ко многим»")
 
 ***
+***
